@@ -1,0 +1,30 @@
+{
+  "name": "clear-functions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Strogaia-Anna/Clear-functions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Strogaia-Anna/Clear-functions/issues"
+  },
+  "homepage": "https://github.com/Strogaia-Anna/Clear-functions#readme",
+  "description": "",
+  "devDependencies": {
+    "@babel/cli": "^7.28.0",
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "eslint": "^8.23.0",
+    "jest": "^30.0.5"
+  },
+  "dependencies": {
+    "core-js": "^3.44.0"
+  }
+}
