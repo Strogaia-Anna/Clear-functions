@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --mode production",
     "test": "jest --coverage",
     "lint": "eslint"
   },
@@ -22,7 +23,8 @@
     "@babel/core": "^7.28.0",
     "@babel/preset-env": "^7.28.0",
     "eslint": "^8.23.0",
-    "jest": "^30.0.5"
+    "jest": "^30.0.5",
+    "webpack": "^5.101.0"
   },
   "dependencies": {
     "core-js": "^3.44.0"
